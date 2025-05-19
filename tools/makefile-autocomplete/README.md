@@ -15,7 +15,7 @@ A lightweight Bash script that enables **autocompletion for `make` targets**, in
 
 1. Download the script and append it to your Bash/Zsh config:
     ```bash
-    curl -s https://raw.githubusercontent.com/naimmas/Better-EmbeddedSoftware/refs/heads/main/tools/makefile_autocompleter.sh | tee -a ~/.bashrc
+    curl -s https://raw.githubusercontent.com/naimmas/Better-Embedded-Software/refs/heads/main/tools/makefile-autocomplete/makefile_autocompleter.sh | tee -a ~/.bashrc
     ```
 2. Reload your shell configuration:
     ```bash
