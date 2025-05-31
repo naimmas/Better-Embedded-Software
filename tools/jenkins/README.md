@@ -51,7 +51,9 @@ This project provides a fully automated setup for Jenkins using Docker, enabling
 
 1. **`jenkins-build`**
     - Pulls the latest base image.
-    - Builds the image with the name `myjenkins-blueocean:2.510`.
+    - Builds the image with `myjenkins-blueocean:2.510` tag.
+    - Installs the Docker CLI and Make.
+    - Installs a set of pre-selected plugins.
 
 2. **`jenkins-start`**    
     - Starts the container with the name `jenkins-blueocean`.
